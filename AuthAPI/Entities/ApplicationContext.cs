@@ -11,5 +11,7 @@ namespace AuthAPI.Entities
         {
 
         }
+
+        public DbSet<User> Users { get; set; }
     }
 }
